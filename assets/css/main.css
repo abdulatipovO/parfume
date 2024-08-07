@@ -844,16 +844,16 @@ section,
   width: 100%;
   min-height: 75vh;
   position: relative;
-  padding: 60px 0;
+  /* padding: 0px 0; */
   display: flex;
   align-items: center;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/hero-bg.png") top right;
   background-size: cover;
 }
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  /* background: color-mix(in srgb, var(--background-color)); */
   position: absolute;
   bottom: 0;
   top: 0;
