@@ -713,7 +713,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #B9795F;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -722,12 +722,12 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--contrast-color);
+  color: #fff;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, #B9795F, transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -840,20 +840,21 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/*
 .hero {
   width: 100%;
   min-height: 75vh;
   position: relative;
-  /* padding: 0px 0; */
+
+  padding: 60px 0;
   display: flex;
-  align-items: center;
-  background: url("../img/hero-bg.png") top right;
+  align-items: left;
   background-size: cover;
-}
+}*/
 
 .hero:before {
   content: "";
-  /* background: color-mix(in srgb, var(--background-color)); */
+  background: color-mix(in srgb, var(--background-color));
   position: absolute;
   bottom: 0;
   top: 0;

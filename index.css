@@ -1,15 +1,88 @@
-@font-face {
-    font-family: 'UniqueFont';
-    src: url('shrift_types/AspireDemibold-YaaO.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.navmenu ul li a {
+    text-decoration: none; /* Remove default underline */
+    padding-bottom: 5px; /* Space for the underline */
+    position: relative;
 }
 
-@font-face {
-    font-family: 'HomeType';
-    src: url('shrift_types/ParisForbel-7OOol.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.navmenu ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px; /* Height of the underline */
+    background-color: #B9795F; /* Color of the underline */
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
 
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.member-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.member-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-member:hover .member-img img {
+    transform: scale(1.1);
+}
+
+.member-info {
+    padding: 20px 0;
+}
+
+.member-info h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #B9795F !important;
+
+}
+
+.member-info span {
+    display: block;
+    margin-bottom: 10px;
+    color: #B9795F !important;
+
+
+    
+}
+
+.member-info a {
+    color: #B9795F;
+    text-decoration: none;
+    color: #7B3E2D !important;
+}
+
+.member-info a:hover {
+    text-decoration: underline;
+}
+
+.limit-subtitle a{
+    color: #7B3E2D !important;
+
+}
+.limit-subtitle h4{
+    color: #B9795F !important;
+    font-weight: 400;
+
+}
+.limit-image{
+    display: flex;
+    justify-content: end;
+}
