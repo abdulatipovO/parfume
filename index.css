@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'UniqueFont';
+    src: url('shrift_types/AspireDemibold-YaaO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HomeType';
+    src: url('shrift_types/ParisForbel-7OOol.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
