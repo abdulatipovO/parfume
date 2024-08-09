@@ -86,5 +86,71 @@
     display: flex;
     justify-content: end;
 }
+/* Adjustments for mobile devices */
+
+
+
+.footer-top {
+    padding: 20px 0;
+}
+
+
+    
+
+/* Styling adjustments for very small devices */
+@media (max-width: 576px) {
+    .footer-top .row {
+        padding: 10px 0;
+    }
+
+    .footer-top img {
+        width: 60px; /* Adjusts logo size for smaller screens */
+        height: 60px;
+    }
+
+    .footer-top .row p {
+        font-size: 14px; /* Reduces font size for better readability */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .col-lg-6.position-relative {
+        text-align: center; /* Center-aligns the images on smaller screens */
+    }
+
+    .col-lg-6.position-relative img {
+        width: 80%; /* Adjust the image size for mobile devices */
+        height: auto;
+        position: static; /* Removes absolute positioning on smaller screens */
+        margin: 0 auto; /* Centers the images within the container */
+    }
+
+    .col-lg-6.position-relative .img-fluid {
+        margin-top: 20px; /* Adds margin for better spacing on mobile */
+    }
+
+    .footer-top .row {
+        flex-direction: column; /* Stacks items vertically */
+        text-align: center; /* Centers the content */
+    }
+
+    .footer-top .row p {
+        margin-bottom: 10px; /* Adds spacing between items */
+    }
+
+    .footer-top .social-links {
+        justify-content: center; /* Centers social icons */
+        margin-top: 10px; /* Adds margin above the social icons */
+    }
+
+    .footer-top img {
+        margin-bottom: 10px; /* Adds space below the logo */
+    }
+}
+
+
+/* General styling for the footer */
+
 
 
