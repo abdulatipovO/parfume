@@ -357,13 +357,14 @@ h6 {
   .navmenu {
     padding: 0;
     z-index: 9997;
+    
   }
 
   .navmenu ul {
     display: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
-    padding: 10px 0;
+    padding: 50% 0;
     margin: 0;
     border-radius: 6px;
     background-color: var(--nav-mobile-background-color);
@@ -371,7 +372,15 @@ h6 {
     transition: 0.3s;
     z-index: 9998;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    list-style: none;
+   
   }
+  .navmenu ul a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
 
   .navmenu a,
   .navmenu a:focus {
@@ -385,7 +394,11 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+  
+    
   }
+
+  
 
   .navmenu a i,
   .navmenu a:focus i {
@@ -400,6 +413,8 @@ h6 {
     border-radius: 50%;
     transition: 0.3s;
     background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  
+
   }
 
   .navmenu a i:hover,
@@ -419,6 +434,7 @@ h6 {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     transform: rotate(180deg);
+
   }
 
   .navmenu .dropdown ul {
@@ -465,8 +481,10 @@ h6 {
   }
 
   .mobile-nav-active .navmenu>ul {
+  
     display: block;
   }
+  
 }
 
 /*--------------------------------------------------------------

@@ -147,6 +147,42 @@
     .footer-top img {
         margin-bottom: 10px; /* Adds space below the logo */
     }
+
+    .limit-image {
+        text-align: center;
+      }
+    
+      .limit-image img {
+        width: 100%; /* Make the image take full width on mobile */
+        margin: 0 auto; /* Center the image */
+      }
+    
+      .about-content ul {
+        padding: 0;
+        text-align: center; /* Center the text */
+      }
+    
+      .about-content h3 {
+        font-size: 28px; /* Adjust the heading size for mobile */
+      }
+      .limit-subtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        text-align: center; /* Center text inside the flex container */
+        width: 100%; /* Ensure the container spans the full width */
+        margin: 0 auto; /* Center the container itself */
+      }
+    
+      .limit-subtitle h4, .limit-subtitle a {
+        margin: 5px 0; /* Small margin to give some space between the elements */
+        width: 100%; /* Ensure full width for centering */
+      }
+    
+      .limit-subtitle a span {
+        display: inline-block; /* Ensure the text is treated as block for easier centering */
+      }
 }
 
 
